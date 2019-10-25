@@ -1,3 +1,5 @@
+[Test version](https://roadmap-project.github.io/dev-learning-guidelines)
+
 ## What is it?
 This guidelines will give you an idea of the path of learning to become an IT specialist by yourself.
 

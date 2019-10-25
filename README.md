@@ -24,7 +24,7 @@ For every specialization you have completed learning guideline:
     * Videos
     * Books
     
-## What next released?
+## What's next release?
 * More content for this stage
     * FAQ for Web Baseline
     * Resources for Web Baseline

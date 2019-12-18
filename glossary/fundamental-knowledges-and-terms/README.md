@@ -1,2 +1,0 @@
-# fundamental-knowledges-and-terms
-

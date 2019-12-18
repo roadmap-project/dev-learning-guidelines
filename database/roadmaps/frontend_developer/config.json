@@ -1,0 +1,152 @@
+{
+  "title": "Frontend Developer",
+  "authors": [
+    "github_username"
+  ],
+  "steps": [
+    [
+      {
+        "refs": [
+          {
+            "concept": "html"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "css"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "programming"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "algorithms_and_data_structures"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "javascript"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "version_control_system"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "computer_network"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "options": {
+          "allow_multiple_choice": false
+        },
+        "refs": [
+          {
+            "concept": "react.js",
+            "options": {
+              "note": "Возьмите React.js если вам важна гибкость"
+            }
+          },
+          {
+            "concept": "vue.js",
+            "options": {
+              "note": "Vue.js хорошо подходит для прототипирования"
+            }
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "ide"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "software_testing"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "jest"
+          },
+          {
+            "concept": "enzyme"
+          },
+          {
+            "concept": "cypress"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "electron"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "information_search"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "problem_solving"
+          }
+        ]
+      }
+    ]
+  ]
+}

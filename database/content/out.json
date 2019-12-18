@@ -333,7 +333,7 @@
               }
             ],
             "options": {
-              "allow_multiple_choice": true,
+              "allow_multiple_choice": false,
               "required_concepts": []
             }
           }

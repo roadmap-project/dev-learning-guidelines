@@ -108,6 +108,9 @@
     ],
     [
       {
+        "options": {
+          "allow_multiple_choice": false
+        },
         "refs": [
           {
             "concept": "jest"

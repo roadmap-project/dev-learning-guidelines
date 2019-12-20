@@ -1,4 +1,4 @@
-# Распределенные системы
+# Distributed systems
 ## Description
 Answer the questions:
 - What is it?

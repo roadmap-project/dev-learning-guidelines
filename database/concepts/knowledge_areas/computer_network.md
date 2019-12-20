@@ -1,4 +1,4 @@
-# Компьютерные сети
+# Computer network
 ## Description
 Answer the questions:
 - What is it?

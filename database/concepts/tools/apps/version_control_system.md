@@ -1,4 +1,4 @@
-# Системы контроля версий
+# Version Control Systems
 ## Description
 Answer the questions:
 - What is it?

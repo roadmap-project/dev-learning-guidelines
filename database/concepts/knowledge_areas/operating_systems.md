@@ -1,4 +1,4 @@
-# Операционные системы
+# Operating systems
 ## Description
 Answer the questions:
 - What is it?

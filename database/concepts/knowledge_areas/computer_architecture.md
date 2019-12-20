@@ -1,4 +1,4 @@
-# Компьютерная архитектура
+# Computer architecture
 ## Description
 Answer the questions:
 - What is it?

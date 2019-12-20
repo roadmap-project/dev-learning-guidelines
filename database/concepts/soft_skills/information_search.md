@@ -1,4 +1,4 @@
-# Поиск информации
+# Information search
 ## Description
 Answer the questions:
 - What is it?

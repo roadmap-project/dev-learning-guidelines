@@ -1,4 +1,4 @@
-# Тестирование программного обеспечения
+# Software testing
 ## Description
 Answer the questions:
 - What is it?

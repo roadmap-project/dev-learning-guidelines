@@ -1,4 +1,4 @@
-# Разрешение проблем
+# Problem solving
 ## Description
 Answer the questions:
 - What is it?

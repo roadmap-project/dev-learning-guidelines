@@ -1,4 +1,4 @@
-# Алгоритмы и Структуры данных
+# Algorithms and Data structures 
 ## Description
 Answer the questions:
 - What is it?

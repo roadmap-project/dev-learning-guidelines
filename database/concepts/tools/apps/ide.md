@@ -1,4 +1,4 @@
-# Интегрированные среды разработки
+# IDE
 ## Description
 Answer the questions:
 - What is it?

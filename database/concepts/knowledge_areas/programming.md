@@ -1,4 +1,4 @@
-# Программирование
+# Programming
 ## Description
 Answer the questions:
 - What is it?

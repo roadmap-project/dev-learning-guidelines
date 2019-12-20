@@ -1,0 +1,83 @@
+{
+  "title": "Frontend Developer",
+  "authors": [
+    "github_username"
+  ],
+  "steps": [
+    [
+      {
+        "refs": [
+          {
+            "concept": "html"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "css"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "javascript"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "options": {
+          "allow_multiple_choice": false
+        },
+        "refs": [
+          {
+            "concept": "react.js",
+            "options": {
+              "note": "Возьмите React.js если вам важна гибкость"
+            }
+          },
+          {
+            "concept": "vue.js",
+            "options": {
+              "note": "Vue.js хорошо подходит для прототипирования"
+            }
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "options": {
+          "required_concepts": [
+            "vue.js"
+          ]
+        },
+        "refs": [
+          {
+            "concept": "vuex"
+          }
+        ]
+      },
+      {
+        "options": {
+          "required_concepts": [
+            "react.js"
+          ]
+        },
+        "refs": [
+          {
+            "concept": "redux"
+          }
+        ]
+      }
+    ]
+  ]
+}
+

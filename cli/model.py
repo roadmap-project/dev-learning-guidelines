@@ -88,7 +88,7 @@ def collect_dependencies(roadmaps_data, concepts):
                 dependencies[used_concept] = concept['path']
 
         roadmap_data['dependencies'] = dependencies
-        dependencies = []
+        dependencies = {}
 
     return roadmaps_data
 

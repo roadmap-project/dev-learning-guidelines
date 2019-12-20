@@ -43,10 +43,8 @@ def add_roadmap(directory, roadmap_title, author_username):
 
     with open(os.path.join(conf.templates_dir, 'config.json'), 'r') as fr:
         config = json.load(fr)
-        config['steps'] = []
         config['title'] = roadmap_title
         config['authors'] = [author_username]
-        config['dependencies'] = []
 
         with open(os.path.join(directory, 'config.json'), 'w') as fw:
             json.dump(config, fw)

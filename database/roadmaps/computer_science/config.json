@@ -1,0 +1,80 @@
+{
+  "title": "Computer Science",
+  "authors": [
+    "artemsnegirev"
+  ],
+  "steps": [
+    [
+      {
+        "refs": [
+          {
+            "concept": "programming"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "computer_architecture"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "algorithms_and_data_structures"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "mathematics"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "operating_systems"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "computer_network"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "databases"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "refs": [
+          {
+            "concept": "distributed_systems"
+          }
+        ]
+      }
+    ]
+  ]
+}

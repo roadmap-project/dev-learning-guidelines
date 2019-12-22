@@ -109,7 +109,7 @@
     [
       {
         "options": {
-          "allow_multiple_choice": false
+          "allow_multiple_choice": true
         },
         "refs": [
           {

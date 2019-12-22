@@ -78,11 +78,13 @@ def generate_out_data(roadmaps_data, concepts_data):
         with open(concept_path, 'r') as f:
             concept_content = f.read()
 
+        concept_url = concept_data['url']
         concept_path = concept_data['path']
         concept_slug = concept_data['slug']
         concept_title = concept_data['title']
 
         data['concepts'].append({
+            'url': concept_url,
             'path': concept_path,
             'slug': concept_slug,
             'title': concept_title,
@@ -95,6 +97,7 @@ def generate_out_data(roadmaps_data, concepts_data):
         with open(overview_filepath, 'r') as f:
             overview_content = f.read()
 
+        roadmap_url = roadmap_data['url']
         roadmap_path = roadmap_data['path']
         roadmap_slug = roadmap_data['slug']
         roadmap_steps = roadmap_data['config']['steps']
@@ -103,6 +106,7 @@ def generate_out_data(roadmaps_data, concepts_data):
         roadmap_authors = roadmap_data['config']['authors']
 
         data['roadmaps'].append({
+            'url': roadmap_url,
             'path': roadmap_path,
             'slug': roadmap_slug,
             'steps': roadmap_steps,
@@ -141,13 +145,9 @@ def generate_vis_data(roadmaps_data, concepts_data):
                         'tid': n['id']
                     })
 
-        roadmap_path = os.path.join(roadmap_data['path'], 'overview.md')
-        roadmap_path = conf.gh_db_url + roadmap_path
-
         roadmaps.append({
             'id': cur_id,
             'concepts': concepts,
-            'path': roadmap_path,
             'slug': roadmap_data['slug'],
             'name': roadmap_data['config_title']
         })

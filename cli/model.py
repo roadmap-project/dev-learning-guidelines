@@ -24,8 +24,10 @@ def collect_concepts(root):
                 name = title.split('#')[1].strip()
 
             filepath = os.path.relpath(filepath, db_dir)
+            url = gh_db_url + filepath
 
             concepts.append({
+                'url': url,
                 'path': filepath,
                 'slug': slug,
                 'title': name
@@ -63,8 +65,10 @@ def collect_roadmaps(root):
             slug = os.path.basename(path)
             path = os.path.relpath(path, db_dir)
             config_title = config['title']
+            url = gh_db_url + path
 
             roadmaps.append({
+                'url': url,
                 'path': path,
                 'slug': slug,
                 'config': config,
@@ -133,11 +137,8 @@ def collect_tree(concepts_data):
             d['name'] = to_title(d['slug'])
 
         if d['id'] != 0:
-            path = os.path.relpath(path, db_dir)
-            path = gh_db_url + path
             nodes.append({
                 'id': d['id'],
-                'path': path,
                 'slug': d['slug'],
                 'name': d['name'],
                 'parents': d['parents'],

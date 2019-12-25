@@ -1,50 +1,35 @@
 # Program engineering
-## Description
-Answer the questions:
-- What is it?
-- What terms is it related to?
-- How is it related?
+<!-- 
+ * первая строка всего в виде '# Название концепта'
+ * не изменяйте названия разделов и их порядок 
+ * не удаляйте комментарии, они используются для парсинга
+-->
+### Описание:
+<!--description content start-->
+Кратко в нескольких предложениях ответить на вопросы (если возможно):
+- что это такое? Что из себя представляет и как связано с другими концептами?   
+- какая сфера применения? Как, зачем и для каких задач это используется?
+- каких целей позволяет достичь? Почему это важно для изучения?
+<!--description content end-->
+### Стратегия развития
+#### Как не стоит делать:
+Список примеров, которые показывают, что мешает развитию
+#### Как правильно делать:
+Список советов, которые могут помочь развиваться быстрее
 
-## Why important to learn it?
-Here please use bullet list for explain your opinion.
-- one
-- two
-- three
-
-## What if i miss it?
-Here please use bullet list for explain your opinion.
-- first "bad" thing
-  - more info
-  - move-more info
-- second "bad" thing
-
-## Use example
-### Bad use examples
-Unordered list of bad use examples.
-### Good use examples
-Unordered list of good use examples.
-
-## How to learn
-### Practice
-Here we describe specific practices of how you can begin to engage in this thread from scratch and implement it. The main thing in this section is maximum specificity.
-
-## Consultations and experience exchange
-List of chats, communities, people you can contact.
-
-## Theory
-### Articles
-**For beginners:**
-- Description in one sentence: link
-- Description in one sentence: link
-
-**For advanced:**
-- Description in one sentence: link
-- Description in one sentence: link
-  
-### Podcasts
-
-### Courses
-
-### Videos
-
-### Books
+### Руководство к действию:
+#### Что нужно знать
+<!--knowledge content start-->
+Список тем о которых нужно знать и почему (можно в виде чек-листа)
+<!--knowledge content end-->
+#### Что способен делать
+<!--competencies content start-->
+Список задач, которые возможно решать на данном уровне
+<!--competencies content end-->
+#### Ресурсы для обучения
+Книги, курсы, статьи, гайды, игры:
+- описание + как использовать: ссылка
+#### Дополнительно (опционально)
+Все что угодно что не попало в остальные секции, но также важно для развития
+#### Практические задания (опционально)
+Примеры учебных проектов для тренировки и получения опыта 

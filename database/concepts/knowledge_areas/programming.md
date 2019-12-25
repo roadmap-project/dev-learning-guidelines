@@ -1,50 +1,43 @@
 # Programming
-## Description
-Answer the questions:
-- What is it?
-- What terms is it related to?
-- How is it related?
-
-## Why important to learn it?
-Here please use bullet list for explain your opinion.
-- one
-- two
-- three
-
-## What if i miss it?
-Here please use bullet list for explain your opinion.
-- first "bad" thing
-  - more info
-  - move-more info
-- second "bad" thing
-
-## Use example
-### Bad use examples
-Unordered list of bad use examples.
-### Good use examples
-Unordered list of good use examples.
-
-## How to learn
-### Practice
-Here we describe specific practices of how you can begin to engage in this thread from scratch and implement it. The main thing in this section is maximum specificity.
-
-## Consultations and experience exchange
-List of chats, communities, people you can contact.
-
-## Theory
-### Articles
-**For beginners:**
-- Description in one sentence: link
-- Description in one sentence: link
-
-**For advanced:**
-- Description in one sentence: link
-- Description in one sentence: link
-  
-### Podcasts
-
-### Courses
-
-### Videos
-
-### Books
+### Описание
+<!--description content start-->
+Кратко в нескольких предложениях ответить на вопросы (если возможно):
+- что это такое? Что из себя представляет и как связано с другими концептами?   
+- какая сфера применения? Как, зачем и для каких задач это используется?
+- каких целей позволяет достичь? Почему это важно для изучения?
+<!--description content end-->
+### Стратегия развития
+#### Как не стоит делать:
+Список примеров, которые показывают, что мешает развитию
+#### Как правильно делать:
+Список советов, которые могут помочь развиваться быстрее
+### Руководство к действию
+#### Что нужно знать
+<!--knowledge content start-->
+- основные типы данных
+- область видимости переменных
+- базовые операции над данными
+- базовые конструкции: циклы, ветвления
+- динамическая и статическая память, указатели
+- функциия, рекурсия и их использование
+- передача параметров по значению и по ссылке
+- работа с вводом/выводом, работа с файлами
+- базовые алгоритмы обработки данных
+<!--knowledge content end-->
+#### Что способен делать
+<!--competencies content start-->
+- работать с одномерными и двумерными массивами и строками
+- использовать основные алгоритмические структуры языка при написании программ
+- использовать подходящие методы сортировок и другие алгоритмы обработки данных
+- декомпозировать программу на подпрограммы и использовать для этого функции 
+- умеет использовать динамическую память при написании программ
+- написать оптимальные по памяти и эффективные по времени программы
+- тестирововать и отлаживать программы с помощью средств разработки
+<!--competencies content end-->
+#### Ресурсы для обучения
+Книги, курсы, статьи, гайды, игры:
+- на языке С++ (более предпочтительно): https://stepik.org/course/363
+- на языке C#: https://stepik.org/course/5482
+#### Практические задания
+- https://hi.hyperskill.org/
+- https://www.codewars.com/

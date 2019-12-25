@@ -15,3 +15,18 @@ default_step = {
     'required_concepts': [],
     'allow_multiple_choice': True,
 }
+
+concept_info = {
+    'description': {
+        'start': '<!--description content start-->',
+        'end': '<!--description content end-->'
+    },
+    'knowledge': {
+        'start': '<!--knowledge content start-->',
+        'end': '<!--knowledge content end-->'
+    },
+    'competencies': {
+        'start': '<!--competencies content start-->',
+        'end': '<!--competencies content end-->'
+    }
+}

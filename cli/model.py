@@ -1,7 +1,6 @@
 # Модель заготоваливает представления для других *.py модулей
 # Модель единственная, кто знает какие сущности в базе знаний
 
-
 import os
 import json
 
@@ -23,6 +22,9 @@ def collect_concepts(root):
                 title = f.readline()
                 name = title.split('#')[1].strip()
 
+            with open(filepath, 'r') as f:
+                content = f.read()
+
             filepath = os.path.relpath(filepath, db_dir)
             url = gh_db_url + filepath
 
@@ -30,7 +32,8 @@ def collect_concepts(root):
                 'url': url,
                 'path': filepath,
                 'slug': slug,
-                'title': name
+                'title': name,
+                'content': content
             })
 
     return concepts
@@ -78,6 +81,22 @@ def collect_roadmaps(root):
             })
 
     return roadmaps
+
+
+def collect_concepts_info(concepts_data):
+    for concept_data in concepts_data:
+        content = concept_data['content']
+
+        for key, dividers in concept_info.items():
+            if dividers['start'] in content and dividers['end'] in content:
+                # getting content between dividers start ... end
+                _, m = content.split(dividers['start'])
+                m, _ = m.split(dividers['end'])
+                concept_data[key] = m
+            else:
+                concept_data[key] = 'empty'
+
+    return concepts_data
 
 
 def collect_dependencies(roadmaps_data, concepts):

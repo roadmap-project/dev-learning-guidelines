@@ -2,7 +2,7 @@
 # Не знают какие там сущности, а только то что нужно проверить
 # Тесты получают достаточные для себя данные из model.py
 
-import os
+from cli.config import *
 
 warnings = 0
 errors = 0
@@ -44,6 +44,7 @@ def test_file_and_folder_in_same_node_existing(root: str):
     """
     :param root: str
     """
+
     def exclude(files):
         ignore = ['.ds_store']
         return list(filter(lambda x: x.lower() not in ignore, files))
@@ -107,6 +108,20 @@ def test_concept_existing(objs: list, concepts: list):
             concept = next(filter(lambda x: x['slug'] == obj_concept, concepts), None)  # find concept
             if not concept:
                 error(f'concept not found "{obj_concept}" for "{obj["slug"]}"')
+
+
+@execution_result
+def test_concept_content_scheme(objs: list):
+    """
+    :param objs: [] of dict {slug: str, content: str}
+    """
+
+    for obj in objs:
+        content = obj['content']
+
+        for key, dividers in concept_info.items():
+            if not (dividers['start'] in content and dividers['end'] in content):
+                error(f'not valid content scheme for {content["slug"]}')
 
 # @print_execution_result
 # def test_unused_concepts():

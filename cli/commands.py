@@ -74,22 +74,18 @@ def generate_out_data(roadmaps_data, concepts_data):
     }
 
     for concept_data in concepts_data:
-        concept_path = os.path.join(conf.db_dir, concept_data['path'])
-        with open(concept_path, 'r') as f:
-            concept_content = f.read()
+        concept = {
+            'url': concept_data['url'],
+            'path': concept_data['path'],
+            'slug': concept_data['slug'],
+            'title': concept_data['title'],
+            'content': concept_data['content'],
+        }
 
-        concept_url = concept_data['url']
-        concept_path = concept_data['path']
-        concept_slug = concept_data['slug']
-        concept_title = concept_data['title']
+        for info in conf.concept_info.keys():
+            concept[info] = concept_data[info]
 
-        data['concepts'].append({
-            'url': concept_url,
-            'path': concept_path,
-            'slug': concept_slug,
-            'title': concept_title,
-            'content': concept_content,
-        })
+        data['concepts'].append(concept)
 
     for roadmap_data in roadmaps_data:
         roadmap_path = os.path.join(conf.db_dir, roadmap_data['path'])
@@ -182,6 +178,11 @@ def test():
 
     # Check quality between concept's title and slug in snake-case
     tests.test_quality(concepts, ['slug', 'title'], utils.to_snake_case)
+
+    # Check concept content scheme
+    tests.test_concept_content_scheme(concepts)
+
+    concepts = model.collect_concepts_info(concepts)
 
     print('____ROADMAPS TESTS_____')
 
